@@ -1,0 +1,130 @@
+[gd_scene load_steps=53 format=2]
+
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Beta_Idle.dae" type="PackedScene" id=1]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Personagem.gd" type="Script" id=2]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Material_001.material" type="Material" id=3]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Chute.tres" type="Animation" id=4]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Correndo.tres" type="Animation" id=5]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Dualidade - Lua.tres" type="Animation" id=6]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Dualidade - Sol.tres" type="Animation" id=7]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Hab_Char.tres" type="Animation" id=8]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Idle.tres" type="Animation" id=9]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Jog_Back.tres" type="Animation" id=10]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Jog_Fwd.tres" type="Animation" id=11]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Jog_Left.tres" type="Animation" id=12]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Jog_Right.tres" type="Animation" id=13]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Jump_Down.tres" type="Animation" id=14]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Jump_Loop.tres" type="Animation" id=15]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Pistol_Right.tres" type="Animation" id=16]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Strf_Bwd_Left.tres" type="Animation" id=17]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Strf_Bwd_Right.tres" type="Animation" id=18]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Strf_Fwd_Left.tres" type="Animation" id=19]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Strf_Fwd_Right.tres" type="Animation" id=20]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Ultimate.tres" type="Animation" id=21]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Walk_Bwd.tres" type="Animation" id=22]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Walk_Fwd.tres" type="Animation" id=23]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Walk_Left.tres" type="Animation" id=24]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Walk_Left_2.tres" type="Animation" id=25]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Walk_Right.tres" type="Animation" id=26]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Walk_Right_2.tres" type="Animation" id=27]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Chute_Arm.tres" type="Animation" id=28]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Correndo_Arm.tres" type="Animation" id=29]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Dualidade - Lua_Arm.tres" type="Animation" id=30]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Dualidade - Sol_Arm.tres" type="Animation" id=31]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Hab_Char_Arm.tres" type="Animation" id=32]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Idle_Arm.tres" type="Animation" id=33]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Jog_Back_Arm.tres" type="Animation" id=34]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Jog_Fwd_Arm.tres" type="Animation" id=35]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Jog_Left_Arm.tres" type="Animation" id=36]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Jog_Right_Arm.tres" type="Animation" id=37]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Jump_Down_Arm.tres" type="Animation" id=38]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Jump_Loop_Arm.tres" type="Animation" id=39]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Pistol_Aim_Arm.tres" type="Animation" id=40]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Pistol_Aim_Shoot.tres" type="Animation" id=41]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Punch_Arm_Back.tres" type="Animation" id=42]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Reload_Arm.tres" type="Animation" id=43]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Strf_Bwd_Left_Arm.tres" type="Animation" id=44]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Strf_Bwd_Right_Arm.tres" type="Animation" id=45]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Strf_Fwd_Left_Arm.tres" type="Animation" id=46]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Strf_Fwd_Right_Arm.tres" type="Animation" id=47]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Ultimate_Arm.tres" type="Animation" id=48]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Walk_Bwd_Arm.tres" type="Animation" id=49]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Walk_Fwd_Arm.tres" type="Animation" id=50]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Walk_Left_Arm.tres" type="Animation" id=51]
+[ext_resource path="res://Recursos/Cenas/Modelos 3D/Personagens/Animacoes/Arm/Walk_Right_Arm.tres" type="Animation" id=52]
+
+[node name="Personagem" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="root" parent="." index="0"]
+editor/display_folded = true
+transform = Transform( 0.01, 0, 0, 0, 0.01, 1.69753e-11, 0, -1.69753e-11, 0.01, 0, 0, 0 )
+_sections_unfolded = [ "bones", "bones/0", "bones/1", "bones/2", "bones/3" ]
+
+[node name="Cube" parent="root" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 1.11022e-16, 0, -1.11022e-16, 1, 0, 0, 0 )
+material/0 = ExtResource( 3 )
+_sections_unfolded = [ "material" ]
+
+[node name="AnimationPlayer" parent="." index="1"]
+anims/Chute = ExtResource( 4 )
+anims/Correndo = ExtResource( 5 )
+"anims/Dualidade - Lua" = ExtResource( 6 )
+"anims/Dualidade - Sol" = ExtResource( 7 )
+anims/Hab_Char = ExtResource( 8 )
+anims/Idle = ExtResource( 9 )
+anims/Jog_Back = ExtResource( 10 )
+anims/Jog_Fwd = ExtResource( 11 )
+anims/Jog_Left = ExtResource( 12 )
+anims/Jog_Right = ExtResource( 13 )
+anims/Jump_Down = ExtResource( 14 )
+anims/Jump_Loop = ExtResource( 15 )
+anims/Pistol_Right = ExtResource( 16 )
+anims/Strf_Bwd_Left = ExtResource( 17 )
+anims/Strf_Bwd_Right = ExtResource( 18 )
+anims/Strf_Fwd_Left = ExtResource( 19 )
+anims/Strf_Fwd_Right = ExtResource( 20 )
+anims/Ultimate = ExtResource( 21 )
+anims/Walk_Bwd = ExtResource( 22 )
+anims/Walk_Fwd = ExtResource( 23 )
+anims/Walk_Left = ExtResource( 24 )
+anims/Walk_Left_2 = ExtResource( 25 )
+anims/Walk_Right = ExtResource( 26 )
+anims/Walk_Right_2 = ExtResource( 27 )
+_sections_unfolded = [ "Pause", "Playback Options" ]
+
+[node name="AmimationPlayerArms" type="AnimationPlayer" parent="." index="2"]
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/Chute_Arm = ExtResource( 28 )
+anims/Correndo_Arm = ExtResource( 29 )
+"anims/Dualidade - Lua_Arm" = ExtResource( 30 )
+"anims/Dualidade - Sol_Arm" = ExtResource( 31 )
+anims/Hab_Char_Arm = ExtResource( 32 )
+anims/Idle_Arm = ExtResource( 33 )
+anims/Jog_Back_Arm = ExtResource( 34 )
+anims/Jog_Fwd_Arm = ExtResource( 35 )
+anims/Jog_Left_Arm = ExtResource( 36 )
+anims/Jog_Right_Arm = ExtResource( 37 )
+anims/Jump_Down_Arm = ExtResource( 38 )
+anims/Jump_Loop_Arm = ExtResource( 39 )
+anims/Pistol_Aim = ExtResource( 40 )
+anims/Pistol_Aim_Shoot = ExtResource( 41 )
+anims/Punch_Arm = ExtResource( 42 )
+anims/Reload_Arm = ExtResource( 43 )
+anims/Strf_Bwd_Left_Arm = ExtResource( 44 )
+anims/Strf_Bwd_Right_Arm = ExtResource( 45 )
+anims/Strf_Fwd_Left_Arm = ExtResource( 46 )
+anims/Strf_Fwd_Right_Arm = ExtResource( 47 )
+anims/Ultimate_Arm = ExtResource( 48 )
+anims/Walk_Bwd_Arm = ExtResource( 49 )
+anims/Walk_Fwd_Arm = ExtResource( 50 )
+anims/Walk_Left_Arm = ExtResource( 51 )
+anims/Walk_Right_Arm = ExtResource( 52 )
+blend_times = [  ]
+_sections_unfolded = [ "Pause", "Playback Options" ]
+
+[connection signal="animation_finished" from="AmimationPlayerArms" to="." method="_on_AmimationPlayerArms_animation_finished"]

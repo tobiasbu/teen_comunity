@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/orb.obj-1a51a539d0be6cc3068970623553c515.mesh"
+
+[deps]
+
+files=[ "res://.import/orb.obj-1a51a539d0be6cc3068970623553c515.mesh" ]
+
+source_file="res://Recursos/Cenas/Jogador/dae/orb.obj"
+dest_files=[ "res://.import/orb.obj-1a51a539d0be6cc3068970623553c515.mesh", "res://.import/orb.obj-1a51a539d0be6cc3068970623553c515.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
