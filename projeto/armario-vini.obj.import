@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/armario-vini.obj-9259a8b80390309c6a0dba78a297d62f.mesh"
+
+[deps]
+
+files=[ "res://.import/armario-vini.obj-9259a8b80390309c6a0dba78a297d62f.mesh" ]
+
+source_file="res://armario-vini.obj"
+dest_files=[ "res://.import/armario-vini.obj-9259a8b80390309c6a0dba78a297d62f.mesh", "res://.import/armario-vini.obj-9259a8b80390309c6a0dba78a297d62f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

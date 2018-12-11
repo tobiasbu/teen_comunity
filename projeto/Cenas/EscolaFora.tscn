@@ -1,0 +1,952 @@
+[gd_scene load_steps=74 format=2]
+
+[ext_resource path="res://Modelos/ModelosForaEscola/Sphere_003.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://Modelos/EscolaMaterials/BolaDeFutibas.tres" type="Material" id=2]
+[ext_resource path="res://Modelos/ModelosForaEscola/Pia.mesh" type="ArrayMesh" id=3]
+[ext_resource path="res://Modelos/EscolaMaterials/PiaAgua.material" type="Material" id=4]
+[ext_resource path="res://Modelos/EscolaMaterials/PiaPintura.material" type="Material" id=5]
+[ext_resource path="res://Modelos/ModelosForaEscola/AguaVazada.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://Modelos/ModelosForaEscola/GarafaPet.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://Modelos/EscolaMaterials/GarrafaPet.material" type="Material" id=8]
+[ext_resource path="res://Modelos/ModelosForaEscola/Sphere_001.mesh" type="ArrayMesh" id=9]
+[ext_resource path="res://Modelos/ModelosForaEscola/Sphere.mesh" type="ArrayMesh" id=10]
+[ext_resource path="res://Modelos/ModelosForaEscola/MacaPodre2.mesh" type="ArrayMesh" id=11]
+[ext_resource path="res://Modelos/EscolaMaterials/MacaPodre.material" type="Material" id=12]
+[ext_resource path="res://Modelos/EscolaMaterials/MacaPodreDentro.material" type="Material" id=13]
+[ext_resource path="res://Modelos/EscolaMaterials/MacaPodreCabo.material" type="Material" id=14]
+[ext_resource path="res://Modelos/ModelosForaEscola/MacaPodre3.mesh" type="ArrayMesh" id=15]
+[ext_resource path="res://Modelos/ModelosForaEscola/MacaPodre1.mesh" type="ArrayMesh" id=16]
+[ext_resource path="res://Modelos/ModelosForaEscola/Sphere_002.mesh" type="ArrayMesh" id=17]
+[ext_resource path="res://Modelos/ModelosForaEscola/Cerca1.mesh" type="ArrayMesh" id=18]
+[ext_resource path="res://Modelos/EscolaMaterials/Cerca.material" type="Material" id=19]
+[ext_resource path="res://Modelos/ModelosForaEscola/Cerca2.mesh" type="ArrayMesh" id=20]
+[ext_resource path="res://Modelos/ModelosForaEscola/GarafaPet2.mesh" type="ArrayMesh" id=21]
+[ext_resource path="res://Modelos/EscolaMaterials/GarrafaPet2.material" type="Material" id=22]
+[ext_resource path="res://Modelos/ModelosForaEscola/Pilastra4.mesh" type="ArrayMesh" id=23]
+[ext_resource path="res://Modelos/EscolaMaterials/Pilastra.material" type="Material" id=24]
+[ext_resource path="res://Modelos/ModelosForaEscola/Pilastra5.mesh" type="ArrayMesh" id=25]
+[ext_resource path="res://Modelos/ModelosForaEscola/Pilastra3.mesh" type="ArrayMesh" id=26]
+[ext_resource path="res://Modelos/ModelosForaEscola/Pilastra2.mesh" type="ArrayMesh" id=27]
+[ext_resource path="res://Modelos/ModelosForaEscola/Pilastra.mesh" type="ArrayMesh" id=28]
+[ext_resource path="res://Modelos/ModelosForaEscola/TetoPlantacao.mesh" type="ArrayMesh" id=29]
+[ext_resource path="res://Modelos/EscolaMaterials/TetoPlantacao.material" type="Material" id=30]
+[ext_resource path="res://Modelos/ModelosForaEscola/Terra.mesh" type="ArrayMesh" id=31]
+[ext_resource path="res://Modelos/EscolaMaterials/Terra0.tres" type="Material" id=32]
+[ext_resource path="res://Modelos/EscolaMaterials/Terra1.tres" type="Material" id=33]
+[ext_resource path="res://Modelos/ModelosForaEscola/Grama.mesh" type="ArrayMesh" id=34]
+[ext_resource path="res://Modelos/ModelosForaEscola/Plane.mesh" type="ArrayMesh" id=35]
+[ext_resource path="res://Modelos/EscolaMaterials/Undefined.material" type="Material" id=36]
+[ext_resource path="res://Modelos/ModelosForaEscola/PredioPrincipal.mesh" type="ArrayMesh" id=37]
+[ext_resource path="res://Modelos/EscolaMaterials/PredioPrincipal.material" type="Material" id=38]
+[ext_resource path="res://Modelos/EscolaMaterials/VermelhoEntrada.material" type="Material" id=39]
+[ext_resource path="res://Modelos/EscolaMaterials/Janela.material" type="Material" id=40]
+[ext_resource path="res://Modelos/EscolaMaterials/DetalhePredioPrincipal.material" type="Material" id=41]
+[ext_resource path="res://Modelos/ModelosForaEscola/Ginasio.mesh" type="ArrayMesh" id=42]
+[ext_resource path="res://Modelos/EscolaMaterials/PilastraGinasio.material" type="Material" id=43]
+[ext_resource path="res://Modelos/EscolaMaterials/TetoGinasio.material" type="Material" id=44]
+[ext_resource path="res://Modelos/EscolaMaterials/GinasioArquibancada.tres" type="Material" id=45]
+[ext_resource path="res://Modelos/EscolaMaterials/GinasioParede.tres" type="Material" id=46]
+[ext_resource path="res://Modelos/ModelosForaEscola/Cube_012_hero.mesh" type="ArrayMesh" id=47]
+[ext_resource path="res://Modelos/ModelosForaEscola/Estacionamento.mesh" type="ArrayMesh" id=48]
+[ext_resource path="res://Modelos/EscolaMaterials/Estacionamento.material" type="Material" id=49]
+[ext_resource path="res://Modelos/ModelosForaEscola/QuadraDeAtletismo.mesh" type="ArrayMesh" id=50]
+[ext_resource path="res://Modelos/EscolaMaterials/CampoAban.material" type="Material" id=51]
+[ext_resource path="res://Modelos/EscolaMaterials/ConcretoAtletismo.material" type="Material" id=52]
+[ext_resource path="res://Modelos/ModelosForaEscola/QuadraDeFutebol.mesh" type="ArrayMesh" id=53]
+[ext_resource path="res://Modelos/EscolaMaterials/QuadraFutebolParede.tres" type="Material" id=54]
+[ext_resource path="res://Modelos/EscolaMaterials/CampoFutebol.material" type="Material" id=55]
+[ext_resource path="res://Modelos/EscolaMaterials/CampoFutebolPivot.material" type="Material" id=56]
+[ext_resource path="res://Modelos/ModelosForaEscola/Bicicletario.mesh" type="ArrayMesh" id=57]
+[ext_resource path="res://Modelos/EscolaMaterials/Bicicletario.tres" type="Material" id=58]
+[ext_resource path="res://Modelos/ModelosForaEscola/Casa.mesh" type="ArrayMesh" id=59]
+[ext_resource path="res://Modelos/EscolaMaterials/Casa.material" type="Material" id=60]
+[ext_resource path="res://Modelos/EscolaMaterials/CasaDetalhe.tres" type="Material" id=61]
+[ext_resource path="res://Modelos/ModelosForaEscola/Guarita.mesh" type="ArrayMesh" id=62]
+[ext_resource path="res://Modelos/EscolaMaterials/Guarita.tres" type="Material" id=63]
+[ext_resource path="res://Modelos/ModelosForaEscola/Parquinho.mesh" type="ArrayMesh" id=64]
+[ext_resource path="res://Modelos/EscolaMaterials/Parquinho.material" type="Material" id=65]
+[ext_resource path="res://Modelos/ModelosForaEscola/Ferramenta.mesh" type="ArrayMesh" id=66]
+
+[sub_resource type="SphereMesh" id=1]
+
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+radius = 1.0
+height = 2.0
+radial_segments = 64
+rings = 32
+is_hemisphere = false
+
+[sub_resource type="ConcavePolygonShape" id=2]
+
+data = PoolVector3Array(  )
+
+[sub_resource type="ConvexPolygonShape" id=4]
+
+points = PoolVector3Array(  )
+
+[sub_resource type="BoxShape" id=5]
+
+extents = Vector3( 52.9977, 1, 1 )
+
+[sub_resource type="BoxShape" id=7]
+
+extents = Vector3( 1, 1, 3.73035 )
+
+[sub_resource type="SpatialMaterial" id=6]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 0.0293648, 0.398438, 0.0264587, 1 )
+metallic = 0.0
+metallic_specular = 0.19
+metallic_texture_channel = 0
+roughness = 0.77
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo", "Roughness" ]
+
+[sub_resource type="SpatialMaterial" id=3]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 0.589844, 0.589844, 0.589844, 1 )
+metallic = 0.33
+metallic_specular = 0.37
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo", "Metallic", "Vertex Color" ]
+
+[node name="Escola" type="Spatial" index="0"]
+
+transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="BolaDeFutebol" type="MeshInstance" parent="." index="0"]
+
+visible = false
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 1 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 2 )
+_sections_unfolded = [ "Geometry", "material" ]
+
+[node name="BolaDeFutibas" type="MeshInstance" parent="." index="1"]
+
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, -212.947, 7.16195, -95.3599 )
+visible = false
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = SubResource( 1 )
+skeleton = NodePath("..")
+material/0 = null
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="Pia" type="StaticBody" parent="." index="2"]
+
+editor/display_folded = true
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Pia" index="0"]
+
+editor/display_folded = true
+shape = SubResource( 2 )
+disabled = false
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Pia" type="MeshInstance" parent="Pia/CollisionShape" index="0"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 3 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 4 )
+material/1 = ExtResource( 4 )
+material/2 = ExtResource( 5 )
+_sections_unfolded = [ "material" ]
+
+[node name="AguaVazada" type="MeshInstance" parent="." index="3"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 6 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 4 )
+_sections_unfolded = [ "material" ]
+
+[node name="Plantacao" type="StaticBody" parent="." index="4"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.99691, 0 )
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape" type="CollisionShape" parent="Plantacao" index="0"]
+
+shape = SubResource( 4 )
+disabled = false
+
+[node name="GarrafaPet" type="MeshInstance" parent="Plantacao" index="1"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 7 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 8 )
+_sections_unfolded = [ "material" ]
+
+[node name="BolaLixo" type="MeshInstance" parent="Plantacao" index="2"]
+
+visible = false
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 9 )
+skeleton = NodePath("..")
+material/0 = null
+
+[node name="Sphere" type="MeshInstance" parent="Plantacao" index="3"]
+
+visible = false
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 10 )
+skeleton = NodePath("..")
+material/0 = null
+
+[node name="MaxaPodre" type="MeshInstance" parent="Plantacao" index="4"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 11 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 12 )
+material/1 = ExtResource( 13 )
+material/2 = ExtResource( 14 )
+_sections_unfolded = [ "material" ]
+
+[node name="MacaPodre" type="MeshInstance" parent="Plantacao" index="5"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 15 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 12 )
+material/1 = ExtResource( 13 )
+material/2 = ExtResource( 14 )
+_sections_unfolded = [ "material" ]
+
+[node name="MacaPodre2" type="MeshInstance" parent="Plantacao" index="6"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 16 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 12 )
+material/1 = ExtResource( 13 )
+material/2 = ExtResource( 14 )
+_sections_unfolded = [ "material" ]
+
+[node name="Sphere.002" type="MeshInstance" parent="Plantacao" index="7"]
+
+visible = false
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 17 )
+skeleton = NodePath("..")
+material/0 = null
+
+[node name="Cerca" type="MeshInstance" parent="Plantacao" index="8"]
+
+editor/display_folded = true
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 18 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 19 )
+_sections_unfolded = [ "material" ]
+
+[node name="StaticBody2" type="StaticBody" parent="Plantacao/Cerca" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+_sections_unfolded = [ "Collision", "Transform" ]
+
+[node name="CollisionShape" type="CollisionShape" parent="Plantacao/Cerca/StaticBody2" index="0"]
+
+transform = Transform( -0.0138819, 0, -0.999904, 0, 10, 0, 0.999904, 0, -0.0138819, 255.971, 11.3712, 288.898 )
+shape = SubResource( 5 )
+disabled = false
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="Cerca2" type="MeshInstance" parent="Plantacao" index="9"]
+
+editor/display_folded = true
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 20 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 19 )
+_sections_unfolded = [ "material" ]
+
+[node name="StaticBody" type="StaticBody" parent="Plantacao/Cerca2" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+_sections_unfolded = [ "Collision", "Transform" ]
+
+[node name="CollisionShape" type="CollisionShape" parent="Plantacao/Cerca2/StaticBody" index="0"]
+
+transform = Transform( 1, 0, 0, 0, 10, 0, 0, 0, 1, 308.233, 11.3712, 344.912 )
+shape = SubResource( 5 )
+disabled = false
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="GarrafaPet2" type="MeshInstance" parent="Plantacao" index="10"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.796719, 0.993919, 0.68676 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 21 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 22 )
+_sections_unfolded = [ "material" ]
+
+[node name="Pilastra" type="MeshInstance" parent="Plantacao" index="11"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 23 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 24 )
+_sections_unfolded = [ "material" ]
+
+[node name="StaticBody" type="StaticBody" parent="Plantacao/Pilastra" index="0"]
+
+editor/display_folded = true
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra/StaticBody" index="0"]
+
+transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
+shape = SubResource( 7 )
+disabled = false
+_sections_unfolded = [ "Transform" ]
+
+[node name="Pilastra2" type="MeshInstance" parent="Plantacao" index="12"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 25 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 24 )
+_sections_unfolded = [ "material" ]
+
+[node name="StaticBody2" type="StaticBody" parent="Plantacao/Pilastra2" index="0"]
+
+editor/display_folded = true
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.32349, 0, 73.2415 )
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra2/StaticBody2" index="0"]
+
+transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
+shape = SubResource( 7 )
+disabled = false
+_sections_unfolded = [ "Transform" ]
+
+[node name="Pilastra3" type="MeshInstance" parent="Plantacao" index="13"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 26 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 24 )
+
+[node name="StaticBody3" type="StaticBody" parent="Plantacao/Pilastra3" index="0"]
+
+editor/display_folded = true
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -64.18, 0, 76.3079 )
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra3/StaticBody3" index="0"]
+
+transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
+shape = SubResource( 7 )
+disabled = false
+_sections_unfolded = [ "Transform" ]
+
+[node name="Pilastra4" type="MeshInstance" parent="Plantacao" index="14"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 27 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 24 )
+
+[node name="StaticBody4" type="StaticBody" parent="Plantacao/Pilastra4" index="0"]
+
+editor/display_folded = true
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -63.7306, 0, 0.968757 )
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra4/StaticBody4" index="0"]
+
+transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
+shape = SubResource( 7 )
+disabled = false
+_sections_unfolded = [ "Transform" ]
+
+[node name="Pilastra5" type="MeshInstance" parent="Plantacao" index="15"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 28 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 24 )
+_sections_unfolded = [ "material" ]
+
+[node name="StaticBody5" type="StaticBody" parent="Plantacao/Pilastra5" index="0"]
+
+editor/display_folded = true
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30.6257, 0, 37.8055 )
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra5/StaticBody5" index="0"]
+
+transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
+shape = SubResource( 7 )
+disabled = false
+_sections_unfolded = [ "Transform" ]
+
+[node name="Teto" type="MeshInstance" parent="Plantacao" index="16"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 29 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 30 )
+_sections_unfolded = [ "material" ]
+
+[node name="TerraPlantacao" type="MeshInstance" parent="Plantacao" index="17"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 31 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 32 )
+material/1 = ExtResource( 33 )
+_sections_unfolded = [ "material" ]
+
+[node name="Plantacao" type="MeshInstance" parent="Plantacao" index="18"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 34 )
+skeleton = NodePath("..")
+material/0 = SubResource( 6 )
+_sections_unfolded = [ "material" ]
+
+[node name="Chao" type="MeshInstance" parent="." index="5"]
+
+visible = false
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 35 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 36 )
+_sections_unfolded = [ "material" ]
+
+[node name="PredioPrincipal" type="MeshInstance" parent="." index="6"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 37 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 38 )
+material/1 = ExtResource( 39 )
+material/2 = ExtResource( 40 )
+material/3 = ExtResource( 41 )
+_sections_unfolded = [ "material" ]
+
+[node name="Ginasio" type="MeshInstance" parent="." index="7"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 42 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 43 )
+material/1 = ExtResource( 44 )
+material/2 = ExtResource( 45 )
+material/3 = ExtResource( 46 )
+_sections_unfolded = [ "material" ]
+
+[node name="Cube.012_hero" type="MeshInstance" parent="." index="8"]
+
+visible = false
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 47 )
+skeleton = NodePath("..")
+material/0 = null
+
+[node name="Estacionamento" type="MeshInstance" parent="." index="9"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 48 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 49 )
+_sections_unfolded = [ "material" ]
+
+[node name="CampoAbandonado" type="MeshInstance" parent="." index="10"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 50 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 51 )
+material/1 = ExtResource( 46 )
+material/2 = ExtResource( 52 )
+_sections_unfolded = [ "material" ]
+
+[node name="QuadraDeFutibas" type="MeshInstance" parent="." index="11"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 53 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 54 )
+material/1 = ExtResource( 55 )
+material/2 = ExtResource( 56 )
+_sections_unfolded = [ "material" ]
+
+[node name="Bicicletario" type="MeshInstance" parent="." index="12"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.4313, -4.22363, 0 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 57 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 58 )
+_sections_unfolded = [ "material" ]
+
+[node name="Casa" type="MeshInstance" parent="." index="13"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 59 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 60 )
+material/1 = ExtResource( 61 )
+_sections_unfolded = [ "material" ]
+
+[node name="Guarita" type="MeshInstance" parent="." index="14"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 37.0326, 0, 0 )
+visible = false
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 62 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 63 )
+_sections_unfolded = [ "material" ]
+
+[node name="Parquinho" type="MeshInstance" parent="." index="15"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 64 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 65 )
+_sections_unfolded = [ "material" ]
+
+[node name="Ferramenta" type="MeshInstance" parent="." index="16"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 70.5789 )
+visible = false
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 66 )
+skeleton = NodePath("..")
+material/0 = SubResource( 3 )
+_sections_unfolded = [ "material" ]
+
+
