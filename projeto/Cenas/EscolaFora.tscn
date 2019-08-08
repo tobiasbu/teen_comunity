@@ -80,15 +80,15 @@ is_hemisphere = false
 
 data = PoolVector3Array(  )
 
-[sub_resource type="ConvexPolygonShape" id=4]
+[sub_resource type="ConvexPolygonShape" id=3]
 
 points = PoolVector3Array(  )
 
-[sub_resource type="BoxShape" id=5]
+[sub_resource type="BoxShape" id=4]
 
 extents = Vector3( 52.9977, 1, 1 )
 
-[sub_resource type="BoxShape" id=7]
+[sub_resource type="BoxShape" id=5]
 
 extents = Vector3( 1, 1, 3.73035 )
 
@@ -144,7 +144,7 @@ proximity_fade_enable = false
 distance_fade_enable = false
 _sections_unfolded = [ "Albedo", "Roughness" ]
 
-[sub_resource type="SpatialMaterial" id=3]
+[sub_resource type="SpatialMaterial" id=7]
 
 render_priority = 0
 flags_transparent = false
@@ -196,7 +196,7 @@ proximity_fade_enable = false
 distance_fade_enable = false
 _sections_unfolded = [ "Albedo", "Metallic", "Vertex Color" ]
 
-[node name="Escola" type="Spatial" index="0"]
+[node name="Escola" type="Spatial"]
 
 transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0 )
 _sections_unfolded = [ "Transform" ]
@@ -291,6 +291,7 @@ _sections_unfolded = [ "material" ]
 
 [node name="Plantacao" type="StaticBody" parent="." index="4"]
 
+editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.99691, 0 )
 input_ray_pickable = true
 input_capture_on_drag = false
@@ -304,7 +305,7 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="CollisionShape" type="CollisionShape" parent="Plantacao" index="0"]
 
-shape = SubResource( 4 )
+shape = SubResource( 3 )
 disabled = false
 
 [node name="GarrafaPet" type="MeshInstance" parent="Plantacao" index="1"]
@@ -457,7 +458,7 @@ _sections_unfolded = [ "Collision", "Transform" ]
 [node name="CollisionShape" type="CollisionShape" parent="Plantacao/Cerca/StaticBody2" index="0"]
 
 transform = Transform( -0.0138819, 0, -0.999904, 0, 10, 0, 0.999904, 0, -0.0138819, 255.971, 11.3712, 288.898 )
-shape = SubResource( 5 )
+shape = SubResource( 4 )
 disabled = false
 _sections_unfolded = [ "Transform", "Visibility" ]
 
@@ -493,7 +494,7 @@ _sections_unfolded = [ "Collision", "Transform" ]
 [node name="CollisionShape" type="CollisionShape" parent="Plantacao/Cerca2/StaticBody" index="0"]
 
 transform = Transform( 1, 0, 0, 0, 10, 0, 0, 0, 1, 308.233, 11.3712, 344.912 )
-shape = SubResource( 5 )
+shape = SubResource( 4 )
 disabled = false
 _sections_unfolded = [ "Transform", "Visibility" ]
 
@@ -516,6 +517,7 @@ _sections_unfolded = [ "material" ]
 
 [node name="Pilastra" type="MeshInstance" parent="Plantacao" index="11"]
 
+editor/display_folded = true
 layers = 1
 material_override = null
 cast_shadow = 1
@@ -545,12 +547,13 @@ constant_angular_velocity = Vector3( 0, 0, 0 )
 [node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra/StaticBody" index="0"]
 
 transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
-shape = SubResource( 7 )
+shape = SubResource( 5 )
 disabled = false
 _sections_unfolded = [ "Transform" ]
 
 [node name="Pilastra2" type="MeshInstance" parent="Plantacao" index="12"]
 
+editor/display_folded = true
 layers = 1
 material_override = null
 cast_shadow = 1
@@ -581,12 +584,13 @@ constant_angular_velocity = Vector3( 0, 0, 0 )
 [node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra2/StaticBody2" index="0"]
 
 transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
-shape = SubResource( 7 )
+shape = SubResource( 5 )
 disabled = false
 _sections_unfolded = [ "Transform" ]
 
 [node name="Pilastra3" type="MeshInstance" parent="Plantacao" index="13"]
 
+editor/display_folded = true
 layers = 1
 material_override = null
 cast_shadow = 1
@@ -616,12 +620,13 @@ constant_angular_velocity = Vector3( 0, 0, 0 )
 [node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra3/StaticBody3" index="0"]
 
 transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
-shape = SubResource( 7 )
+shape = SubResource( 5 )
 disabled = false
 _sections_unfolded = [ "Transform" ]
 
 [node name="Pilastra4" type="MeshInstance" parent="Plantacao" index="14"]
 
+editor/display_folded = true
 layers = 1
 material_override = null
 cast_shadow = 1
@@ -651,12 +656,13 @@ constant_angular_velocity = Vector3( 0, 0, 0 )
 [node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra4/StaticBody4" index="0"]
 
 transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
-shape = SubResource( 7 )
+shape = SubResource( 5 )
 disabled = false
 _sections_unfolded = [ "Transform" ]
 
 [node name="Pilastra5" type="MeshInstance" parent="Plantacao" index="15"]
 
+editor/display_folded = true
 layers = 1
 material_override = null
 cast_shadow = 1
@@ -687,7 +693,7 @@ constant_angular_velocity = Vector3( 0, 0, 0 )
 [node name="CollisionShape" type="CollisionShape" parent="Plantacao/Pilastra5/StaticBody5" index="0"]
 
 transform = Transform( 1, 0, 0, 0, 20, 0, 0, 0, 0.5, 338.906, 17.8901, 244.188 )
-shape = SubResource( 7 )
+shape = SubResource( 5 )
 disabled = false
 _sections_unfolded = [ "Transform" ]
 
@@ -946,7 +952,7 @@ lod_max_distance = 0.0
 lod_max_hysteresis = 0.0
 mesh = ExtResource( 66 )
 skeleton = NodePath("..")
-material/0 = SubResource( 3 )
+material/0 = SubResource( 7 )
 _sections_unfolded = [ "material" ]
 
 
